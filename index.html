@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kerbulak № 1?</title>
+  <style>
+    .big-btn {
+      font-size: 38px;   /* размер текста */
+      padding: 15px 24px; /* размер кнопки */
+      border-radius: 12px;
+      background-color: blue;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>ҚОРТЫҚҚА АРНАЛАДЫ</h1>
+  <h2>КЕШІР</h2>
+  
+  <button class="big-btn" onclick="sayHello()">CLIK</button>
+  
+  <h1 id="text">КРЧ МАХАББАТ ҚОРТЫҚ</h1>
+  <button onclick="changeText()">Изменить текст</button>
+
+  <script>
+    function sayHello() {
+      alert("ТВОЯ IQ ТАКОЙ ЖЕ НИЗКИЙ КАК ТВОЙ РОСТ");
+    }
+
+    function changeText() {
+      document.getElementById("text").innerText = "А теперь текст изменился!";
+    }
+  </script>
+</body>
+</html>
